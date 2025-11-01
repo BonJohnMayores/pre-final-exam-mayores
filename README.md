@@ -1,4 +1,4 @@
-# Pre-Final-Exam-Mayores
+# Product Management App
 
 The Product Management App is a simple React-based application designed to help users manage a list of products.
 
@@ -12,5 +12,6 @@ The Product Management App is a simple React-based application designed to help 
    ```bash
    npm start
    ```
-
+   
+## Created By: BonJohn Mayores (BSIT-3B)
 
