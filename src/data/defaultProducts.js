@@ -7,7 +7,7 @@ const defaultProducts = [
     description: 'Comfortable wireless headphones with noise cancellation.',
     specification: 'Bluetooth 5.0, 20h battery',
     rating: 4.5,
-    price: 3500,
+    price: 750,
     quantity: 10
   },
   {
