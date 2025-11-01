@@ -1,6 +1,6 @@
 # Pre-Final-Exam-Mayores
 
-React + Bootstrap Product Management App (with Light/Dark Mode Toggle and Cart)
+The Product Management App is a simple React-based application designed to help users manage a list of products.
 
 ## Setup
 
