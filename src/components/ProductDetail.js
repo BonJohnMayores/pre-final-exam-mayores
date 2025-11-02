@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-export default function ProductDetail({ products, updateQuantity, addToCartItem }) {
+export default function ProductDetail({ products, updateQuantity,  addToCartItem }) {
   const { id } = useParams();
   const product = products.find(p => p.id === id);
 
@@ -24,8 +24,8 @@ export default function ProductDetail({ products, updateQuantity, addToCartItem 
             <p><strong>Price:</strong> ₱{Number(product.price).toFixed(2)}</p>
             <p><strong>Quantity:</strong> {product.quantity}</p>
             <div className="d-flex gap-2">
-              <button className="btn btn-outline-success" onClick={() => updateQuantity(product.id, 1)}>Increase</button>
-              <button className="btn btn-outline-secondary" onClick={() => updateQuantity(product.id, -1)}>Decrease</button>
+              <button className="btn btn-outline-success" onClick={() => updateQuantity(product.id, 1)}>+ Qty</button>
+              <button className="btn btn-outline-secondary" onClick={() => updateQuantity(product.id, -1)}>- Qty</button>
               <button className="btn btn-outline-primary" onClick={() => addToCartItem(product.id, 1)}>Add to Cart</button>
               <Link to="/" className="btn btn-link ms-auto">Back</Link>
             </div>
