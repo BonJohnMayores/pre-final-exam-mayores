@@ -84,7 +84,7 @@ function App() {
       <header className="d-flex justify-content-between align-items-center mb-4">
         <h2>Product Management App</h2>
         <div className="d-flex align-items-center gap-2">
-          <Link className="btn btn-outline-primary" to="/">Home</Link>
+          <Link className="btn btn-outline-primary" to="/">🏠Home</Link>
           <Link className="btn btn-outline-success position-relative" to="/cart">🛒Cart
             {cartCount>0 && <span className="badge bg-danger position-absolute top-0 start-100 translate-middle">{cartCount}</span>}
           </Link>
